@@ -43,7 +43,7 @@
                 <tr>
                     <td class="auto-style4">&nbsp;</td>
                     <td class="auto-style5">
-                        <asp:Button ID="Button1" runat="server" CssClass="auto-style6" Height="48px" Text="Organisation" Width="361px" />
+                        <asp:Button ID="organisationBtn" runat="server" CssClass="auto-style6" Height="48px" Text="Organisation" Width="361px" />
                     </td>
                     <td>&nbsp;</td>
                 </tr>
@@ -51,6 +51,21 @@
                     <td class="auto-style4">&nbsp;</td>
                     <td class="auto-style5">
                         <asp:Button ID="individualBtn" runat="server" CssClass="auto-style6" Height="48px" Text="Individual" Width="361px" />
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td class="auto-style5">
+                        <asp:Button ID="employeeBtn" runat="server" CssClass="auto-style6" Height="48px" Text="Employee" Width="361px" />
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td class="auto-style5">
+                        <asp:Label ID="Label2" runat="server" BackColor="#FFFF66" Font-Bold="False" Font-Size="Medium" Text="Don't know what to do?"></asp:Label>
+                        <asp:HyperLink ID="helpLink" runat="server">help</asp:HyperLink>
                     </td>
                     <td>&nbsp;</td>
                 </tr>

@@ -11,7 +11,7 @@ namespace Home_Affairs_App___IT_MONARCHS
 {
 
 
-    public partial class Default
+    public partial class OrganizationLogin
     {
 
         /// <summary>
@@ -33,49 +33,49 @@ namespace Home_Affairs_App___IT_MONARCHS
         protected global::System.Web.UI.WebControls.Panel Panel1;
 
         /// <summary>
-        /// Image1 control.
+        /// Image2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
+        protected global::System.Web.UI.WebControls.Image Image2;
 
         /// <summary>
-        /// Label1 control.
+        /// loginErrorLbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label loginErrorLbl;
 
         /// <summary>
-        /// organisationBtn control.
+        /// usernameTbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button organisationBtn;
+        protected global::System.Web.UI.WebControls.TextBox usernameTbx;
 
         /// <summary>
-        /// individualBtn control.
+        /// loginPasswordTbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button individualBtn;
+        protected global::System.Web.UI.WebControls.TextBox loginPasswordTbx;
 
         /// <summary>
-        /// employeeBtn control.
+        /// loginBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button employeeBtn;
+        protected global::System.Web.UI.WebControls.Button loginBtn;
 
         /// <summary>
         /// Label2 control.
@@ -87,12 +87,21 @@ namespace Home_Affairs_App___IT_MONARCHS
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// helpLink control.
+        /// createLink control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink helpLink;
+        protected global::System.Web.UI.WebControls.HyperLink createLink;
+
+        /// <summary>
+        /// goBackLink1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink goBackLink1;
     }
 }

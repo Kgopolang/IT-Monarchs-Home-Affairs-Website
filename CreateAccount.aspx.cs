@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Home_Affairs_App___IT_MONARCHS
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class CreateAccount : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void organisationBtn_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("OrganizationLogin.aspx");
         }
     }
 }
