@@ -14,7 +14,17 @@ namespace Home_Affairs_App___IT_MONARCHS
 
         }
 
-        protected void organisationBtn_Click(object sender, EventArgs e)
+        protected void individualBtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("OptionsForm.aspx");//Moves to the booking page.
+        }
+
+        protected void employeeBtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("EmployeeLogin.aspx");
+        }
+
+        protected void organisationBtn_Click1(object sender, EventArgs e)
         {
             Response.Redirect("OrganizationLogin.aspx");
         }

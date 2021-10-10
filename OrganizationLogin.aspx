@@ -29,6 +29,17 @@
         .auto-style7 {
             margin-left: 60px;
         }
+        .auto-style8 {
+            width: 251px;
+            height: 57px;
+        }
+        .auto-style9 {
+            width: 445px;
+            height: 57px;
+        }
+        .auto-style10 {
+            height: 57px;
+        }
     </style>
 </head>
 <body>
@@ -49,18 +60,22 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td class="auto-style5">
-                        <asp:TextBox ID="usernameTbx" runat="server" CssClass="auto-style6" Height="40px" Width="282px">USERNAME</asp:TextBox>
+                    <td class="auto-style8"></td>
+                    <td class="auto-style9">
+                        <asp:Label ID="Label3" runat="server" Text="Username:"></asp:Label>
+                        <asp:TextBox ID="usernameTbx" runat="server" CssClass="auto-style6" Height="40px" Width="282px"></asp:TextBox>
                     </td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style10"></td>
                 </tr>
                 <tr>
                     <td class="auto-style4">&nbsp;</td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="loginPasswordTbx" runat="server" CssClass="auto-style6" Height="40px" Width="282px">PASSWORD</asp:TextBox>
+                        <asp:Label ID="Label4" runat="server" Font-Size="Medium" Text="Password:"></asp:Label>
+                        <asp:TextBox ID="loginPasswordTbx" runat="server" CssClass="auto-style6" Height="40px" Width="282px" TextMode="Password"></asp:TextBox>
                     </td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Show Password" />
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style4">&nbsp;</td>
